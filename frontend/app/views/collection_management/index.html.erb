@@ -1,0 +1,18 @@
+<%= setup_context(:title => I18n.t("collection_management._plural")) %>
+
+<div class="row">
+  <div class="col-md-3">
+    <%= render_aspace_partial :partial => "search/filter" %>
+  </div>
+  <div class="col-md-9">
+    <div class="record-pane">
+      <%= link_to_help :topic => "search" %>
+
+      <h2><%= I18n.t("collection_management._plural") %></h2>
+
+      <%= render_aspace_partial :partial => "shared/flash_messages" %>
+
+      <%= render_aspace_partial :partial => "search/listing" %>
+    </div>
+  </div>
+</div>

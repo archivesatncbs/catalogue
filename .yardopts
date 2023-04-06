@@ -1,0 +1,21 @@
+--markup-provider=kramdown
+--markup=markdown
+--exclude build/gems
+--exclude build/target
+--output-dir docs/doc
+--legacy
+-e ./_yard/yard-aspace.rb
+'*.rb'
+'backend/app/*.rb'
+'backend/app/**/*.rb'
+'frontend/app/**/*.rb'
+'common/*.rb'
+'common/db/*.rb'
+'common/schemas/*.rb'
+'indexer/app/*.rb'
+'indexer/app/**/*.rb'
+'oai/app/*.rb'
+'public/app/**/*.rb'
+-
+'tech_docs/*.md'
+'tech_docs/**/*.md'
