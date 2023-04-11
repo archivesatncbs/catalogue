@@ -11,6 +11,10 @@
         <% end %>
       </h1>
     </div>
-    <div class="col-sm-3 hidden-xs"><img class="logo" src="<%= asset_path(AppConfig[:pui_branding_img]) %>" alt="<%= AppConfig[:pui_branding_img_alt_text] %>" /></div>
+    <div class="col-sm-3 hidden-xs">
+      <a href="<%= I18n.t("brand.url").html_safe %>">
+        <img class="logo" src="<%= asset_path(AppConfig[:pui_branding_img]) %>" alt="<%= AppConfig[:pui_branding_img_alt_text] %>" />
+      </a>
+    </div>
   </div>
 </section>

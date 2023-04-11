@@ -21,12 +21,13 @@
 
 en:
   brand:
-    title: ArchivesSpace Public Interface
-    title_link_text: Return to the ArchivesSpace homepage
-    welcome_head: Welcome to ArchivesSpace
+    title: Catalogue
+    title_link_text: Return to the catalogue homepage
+    welcome_head: Welcome to the online catalogue of Archives at NCBS
     welcome_message: |
       <p>Search across our collections, digital materials, and more.</p>
-    welcome_page_title: ArchivesSpace Public Interface
+    welcome_page_title: Catalogue | Archives at NCBS
+    url: http://archives.ncbs.res.in
 
   actions:
     search: Search
@@ -194,7 +195,7 @@ en:
     error_404_message: "The %{type} record you've tried to access does not exist or may have been\
       \ removed."
     backend_down: Unable to Connect to Database
-    backend_down_message: ArchivesSpace is currently experiencing technical difficulties. We
+    backend_down_message: The catalogue at Archives at NCBS is currently experiencing technical difficulties. We
       apologise for the inconvenience. Please try again later.
     unexpected_error: Your request could not be completed due to an unexpected error
 
@@ -440,7 +441,7 @@ en:
     table_of_contents: Table Of Contents
     publication_statement: Publication Statement
     controlled_access_headings: Controlled Access Headings
-    finding_aid_date_prefix: This finding aid was produced using ArchivesSpace on
+    finding_aid_date_prefix: This finding aid was produced by Archives at NCBS on
     finding_aid_written_in: Finding aid written in
     your_finding_aid_pdf: Your finding aid PDF for "%{title}"
     your_finding_aid_is_attached: The finding aid you requested is attached.
