@@ -70,3 +70,34 @@
   font-weight: bold;
   font-style: normal;
 }
+
+
+/*Montserrat*/
+
+@font-face {
+  font-family: 'Montserrat';
+  src: font-url('Montserrat-Medium.woff') format('woff'),font-url('Montserrat-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: font-url('Montserrat-MediumItalic.woff') format('woff'),font-url('Montserrat-MediumItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: font-url('Montserrat-SemiBold.woff') format('woff'),font-url('Montserrat-SemiBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: font-url('Montserrat-SemiBoldItalic.woff') format('woff'),font-url('Montserrat-SemiBoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}

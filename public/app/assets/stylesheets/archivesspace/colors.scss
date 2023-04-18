@@ -3,12 +3,12 @@
 $black: #000;
 $darkest: #00171f;
 $white: #fff;
-$darkblue: #041c2f;
-$midblue: #006e99;
-$lightblue: #007cad;
-$darkshade: #888;
-$shade: #ccc;
-$lightshade: #eee;
+// $darkblue: #041c2f;
+// $midblue: #006e99;
+// $lightblue: #007cad;
+// $darkshade: #888;
+// $shade: #ccc;
+// $lightshade: #eee;
 $highlight: #f7d309;
 $dark_against_shade: #004f6f; /* for contrast against lightshade */
 
@@ -36,23 +36,23 @@ $ancbs-blue: #3c6ea7;       $ancbs-white4: #eddede;
 // $breadcrumb-link: $darkblue;
 
 
-$primary-color: $ancbs-brown;
-$secondary-color: $ancbs-green;
-$accent-color: $ancbs-blue;
-$border-accent: $ancbs-deepgreen;
-$border: $shade;
-$image-background: $shade;
-$row-background: $lightshade;
-$button-background: $ancbs-deepbrown;
-$alt-button-background: $lightshade;
+$primary-color: $ancbs-green;
+$secondary-color: $ancbs-brown;
+$accent-color: $ancbs-green;
+$border-accent: $ancbs-green;
+$border: $ancbs-white1;
+$image-background: $ancbs-white1;
+$row-background: $ancbs-white3;
+$button-background: $ancbs-green;
+$alt-button-background: $ancbs-green;
 $alt-button-color: $ancbs-green;
-$light-neutral: $lightshade;
+$light-neutral: $ancbs-white3;
 $breadcrumb-link: $ancbs-green;
 
 /* this is for the top horizontal nav bar */
 $nvBgDefault: $light-neutral;
 $nvBgHighlight: $light-neutral;
-$nvColDefault: $dark_against_shade;
+$nvColDefault: $ancbs-deepbrown;
 $nvColHighlight: $border-accent;
 
 $collection-color: #e01919;
