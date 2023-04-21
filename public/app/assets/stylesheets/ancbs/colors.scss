@@ -1,5 +1,12 @@
 /* colors and icons for your institution */
 
+$ancbs-brown: #804141;
+$ancbs-deepbrown: #463a3a;
+$ancbs-red: #d44132;        $ancbs-white1: #e6ede8;
+$ancbs-deepgreen: #467d80;  $ancbs-white2: #e3e3ed;
+$ancbs-green: #376e55;      $ancbs-white3: #e8d9c0;
+$ancbs-blue: #3c6ea7;       $ancbs-white4: #eddede;
+
 $black: #000;
 $darkest: #00171f;
 $white: #fff;
@@ -10,27 +17,28 @@ $darkshade: #888;
 $shade: #ccc;
 $lightshade: #eee;
 $highlight: #f7d309;
-$dark_against_shade: #004f6f; /* for contrast against lightshade */
+$dark_against_shade: $ancbs-deepbrown; /* for contrast against lightshade */
+
 
 /* this is where you can change colors for your institution */
 
-$primary-color: $lightblue;
-$secondary-color: $midblue;
-$accent-color: $darkblue;
-$border-accent: $darkblue;
-$border: $shade;
-$image-background: $shade;
-$row-background: $lightshade;
-$button-background: $lightblue;
-$alt-button-background: $lightshade;
-$alt-button-color: $darkshade;
-$light-neutral: $lightshade;
-$breadcrumb-link: $darkblue;
+$primary-color: $ancbs-green;
+$secondary-color: $ancbs-brown;
+$accent-color: $ancbs-green;
+$border-accent: $ancbs-deepbrown;
+$border: $ancbs-white1;
+$image-background: $ancbs-white1;
+$row-background: $ancbs-white3;
+$button-background: $ancbs-green;
+$alt-button-background: $ancbs-green;
+$alt-button-color: $ancbs-green;
+$light-neutral: $ancbs-white4;
+$breadcrumb-link: $ancbs-green;
 
 /* this is for the top horizontal nav bar */
 $nvBgDefault: $light-neutral;
 $nvBgHighlight: $light-neutral;
-$nvColDefault: $dark_against_shade;
+$nvColDefault: $ancbs-brown;
 $nvColHighlight: $border-accent;
 
 $collection-color: #e01919;
@@ -44,3 +52,6 @@ $accession-color: $collection-color;
 $digital-object-color: $collection-color;
 $archival-object-color: #457141;
 $folder-color: #009fcf;
+
+
+
