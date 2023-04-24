@@ -5,17 +5,24 @@ html {
 
 
 .breadcrumb li a {
-
  color: $ancbs-brown;
-
 }
 
 .breadcrumb li a:hover {
-
   color: $ancbs-deepbrown;
- 
  }
 
+.btn-default {
+  color: white;
+  background-color: $ancbs-brown;
+  border-color: $ancbs-deepbrown;
+ }
+
+.btn-default:hover {
+  color: white;
+  background-color: $ancbs-deepbrown;
+  border-color: $ancbs-deepbrown;
+} 
 
 .btn-sm {
   background-color: $ancbs-brown;
@@ -32,30 +39,39 @@ html {
   border-color: $ancbs-deepbrown;
 }
 
-#paging .pagination .active a{
-  
+.btn-primary:hover {
+  background-color: $ancbs-deepbrown;
+  border-color: $ancbs-deepbrown;
+}
+
+.btn-primary:focus {
+  background-color: $ancbs-deepbrown;
+  border-color: $ancbs-deepbrown;
+}
+
+.btn-primary:active {
+  background-color: $ancbs-deepbrown;
+  border-color: $ancbs-deepbrown;
+}
+
+#paging .pagination .active a{  
     background-color: $ancbs-deepbrown;
     border-color: $ancbs-deepbrown;
-
+    color: white;
 }
 
 #paging_bottom .pagination .active a{
-  
   background-color: $ancbs-deepbrown;
   border-color: $ancbs-deepbrown;
-
+  color: white;
 }
 
 .pagination li a{
-  
   color: $ancbs-brown;
-
 }
 
-
-
 a {
-  color: $ancbs-brown;
+  // color: $ancbs-brown;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer;
