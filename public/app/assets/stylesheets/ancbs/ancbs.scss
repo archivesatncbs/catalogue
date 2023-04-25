@@ -12,11 +12,11 @@ html {
   color: $ancbs-deepbrown;
  }
 
-.btn-default {
-  color: white;
-  background-color: $ancbs-brown;
-  border-color: $ancbs-deepbrown;
- }
+// .btn-default {
+//   color: white;
+//   background-color: $ancbs-brown;
+//   border-color: $ancbs-deepbrown;
+//  }
 
 .btn-default:hover {
   color: white;
@@ -31,6 +31,18 @@ html {
 
 .btn-sm:hover {
   background-color: $ancbs-deepbrown;
+  border-color: $ancbs-deepbrown;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+  color: white;
+  background-color: $ancbs-brown;
+  border-color: $ancbs-deepbrown;
+}
+
+.btn-sm, .btn-group-sm > .btn:hover{
+  color: white;
+  background-color: $ancbs-brown;
   border-color: $ancbs-deepbrown;
 }
 
@@ -68,6 +80,13 @@ html {
 
 .pagination li a{
   color: $ancbs-brown;
+}
+
+.page_action {
+  color: $ancbs-brown;
+}
+.page_action:hover, .page_action:focus {
+  color: $ancbs-deepbrown;
 }
 
 a {
