@@ -25,7 +25,37 @@ en:
     title_link_text: Return to the catalogue homepage
     welcome_head: Welcome to the online catalogue of Archives at NCBS
     welcome_message: |
-      <p>Search across our collections, digital materials, and more.</p>
+      <h3>About</h3>
+      <p>The Archives at NCBS is a public collecting centre for the history of science in contemporary India. The Archives is free and open to the public. It is located in a 2000 square feet space in the Eastern Lab Complex (ELC) basement in NCBS, a space that was formerly occupied by Obaid Siddiqi, the co-founder of NCBS, and his laboratory. It includes space for research, processing, exhibitions, recording, and a leading-edge storage facility with monitors for temperature, light, humidity, air quality, water, fire, pests, and noise. The publicly accessible catalogue of 150,000 objects spans 25 collections and in various forms, ranging from paper-based manuscripts to negatives to photographs, books, fine art, audio recordings, scientific equipment, letters, and field and lab notes. The reading rooms are open to the public and researchers without prior appointment. However, you may need an appointment to review the archival holdings</p>
+      
+      <h3>Access</h3>
+      <p>Most collections at the Archives at NCBS are described at the level of file/folder. All folder-level descriptions at the Archives at NCBS follow a standard naming convention, and this is indicated in the field titled <em>Identifier</em> in the catalogue. 
+      
+      For instance, refer to the identifier, MS-007-2-2-10-7 for the file on <a href="http://catalogue.archives.ncbs.res.in/repositories/2/archival_objects/5364">correspondence between MS Swaminathan and BM Pal on 23 December 1957 and 31 December 1957</a>. Here is the naming convention breakdown:
+      <br><br>
+      <b>MS-007-2-2-10-7</b>
+      <br><br>
+      <b>MS</b> : Manuscripts
+      <br> 
+      <b>007</b> : 7th manuscript collection at Archives at NCBS
+      <br>
+      <b>2</b> : Series number (Correspondence)
+      <br>
+      <b>2</b> : Sub-series number (1954-1972) 
+      <br>
+      <b>10</b> : Box or container number or location
+      <br>
+      <b>7</b> : Folder or sub-container number
+      <br><br>
+
+      The Archives at NCBS is only providing this information to help researchers understand the naming convention across the collections. Researchers using the archives only need to submit the full identifier in the <b>Researcher Application Form</b> or the <b>Material Use Form</b> outlined in the Resources section below. 
+
+
+      </p>
+      <h3>Resources</h3>
+      <h5><a href="http://archives.ncbs.res.in/sites/default/files/NI-007_0013-0_Access%20and%20Use_Fill.pdf">Researcher Application Form</a> &#x1F58E;<h5>
+      <h5><a href="http://archives.ncbs.res.in/sites/default/files/NI-007_0014-1_Material_Use_Form_Fill.pdf">Material Use Form</a> &#x1F58E;</h5>
+     
     welcome_page_title: Catalogue | Archives at NCBS
     url: http://archives.ncbs.res.in
 
