@@ -21,14 +21,14 @@
 
 en:
   brand:
-    title: Catalogue
+    title: Archives at NCBS
     title_link_text: Return to the catalogue homepage
     welcome_head: Welcome to the online catalogue of Archives at NCBS
     welcome_message: |
       <h3>About</h3>
       <p>The Archives at NCBS is a public collecting centre for the history of science in contemporary India. The Archives is free and open to the public. It is located in a 2000 square feet space in the Eastern Lab Complex (ELC) basement in NCBS, a space that was formerly occupied by Obaid Siddiqi, the co-founder of NCBS, and his laboratory. It includes space for research, processing, exhibitions, recording, and a leading-edge storage facility with monitors for temperature, light, humidity, air quality, water, fire, pests, and noise. The publicly accessible catalogue of 150,000 objects spans 25 collections and in various forms, ranging from paper-based manuscripts to negatives to photographs, books, fine art, audio recordings, scientific equipment, letters, and field and lab notes. The reading rooms are open to the public and researchers without prior appointment. However, you may need an appointment to review the archival holdings</p>
       
-    welcome_page_title: Archives at NCBS
+    welcome_page_title: Catalogue
 
     access_message: |
       <h3>Access</h3>
@@ -57,7 +57,7 @@ en:
       <h5><a href="http://archives.ncbs.res.in/sites/default/files/NI-007_0013-0_Access%20and%20Use_Fill.pdf">Researcher Application Form</a> &#x1F58E;<h5>
       <h5><a href="http://archives.ncbs.res.in/sites/default/files/NI-007_0014-1_Material_Use_Form_Fill.pdf">Material Use Form</a> &#x1F58E;</h5>    
       
-    url: http://archives.ncbs.res.in
+    url: https://archives.ncbs.res.in
 
   actions:
     search: Search
